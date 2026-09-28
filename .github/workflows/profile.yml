@@ -36,8 +36,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake-dark.svg?palette=github-dark&color_snake=#D9C089&color_dots=#1D2940,#344B69,#58789C,#93B4D7,#D9C089
-            dist/snake-light.svg?palette=github-light&color_snake=#A17D3D&color_dots=#EAEFF4,#CEDDEC,#A9C6E8,#7497BE,#C4A364
+            dist/snake-dark.svg?palette=github-dark&color_snake=#C6B4EF&color_dots=#292C40,#485575,#7286B1,#A6C8F5,#C6B4EF
+            dist/snake-light.svg?palette=github-light&color_snake=#9173BD&color_dots=#F0EEE8,#DDE6F5,#B9CDE9,#91B0D5,#A18BC5
       - name: Validate all assets
         run: python scripts/check_assets.py
       - name: Publish generated assets atomically

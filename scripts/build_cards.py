@@ -56,16 +56,15 @@ def fetch():
 
 def shell(theme, title, subtitle, body):
     dark = theme == 'dark'
-    bg, fg, gold, muted = ('#101A2C', '#F7F5EE', '#D9C089', '#A9BDD5') if dark else ('#FAF9F5', '#172D50', '#92703A', '#596B83')
+    bg, fg, accent, muted, edge = ('#242636', '#F7F0DC', '#C6B4EF', '#BCC7DF', '#44485E') if dark else ('#FFF9EC', '#353347', '#7960A0', '#59657B', '#E3DFD4')
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="580" height="250" viewBox="0 0 580 250" role="img" aria-label="{escape(title)}"><title>{escape(title)}</title>
-<defs><radialGradient id="glow"><stop stop-color="{gold}" stop-opacity=".10"/><stop offset="1" stop-color="{gold}" stop-opacity="0"/></radialGradient></defs>
-<rect x="1" y="1" width="578" height="248" rx="12" fill="{bg}" stroke="{gold}" stroke-opacity=".55"/>
-<circle cx="530" cy="20" r="165" fill="url(#glow)"/>
-<g stroke="{gold}" stroke-opacity=".18" fill="none"><path d="M448 250V113Q494 22 540 113V250 M462 250V117Q494 57 526 117V250"/><circle cx="494" cy="89" r="21"/><path d="M494 57V121 M462 89H526"/></g>
-<style>text{{font-family:Georgia,serif;fill:{fg}}}.muted{{fill:{muted};font-family:Arial,sans-serif}}.value{{fill:{gold};font-family:Arial,sans-serif;font-weight:600}}</style>
-<text x="28" y="41" font-size="22">✦ {escape(title)}</text>
-<text x="28" y="65" class="muted" font-size="12">{escape(subtitle)}</text>
-<path d="M28 82H552" stroke="{gold}" stroke-opacity=".25"/>{body}</svg>'''
+<rect x="3" y="3" width="574" height="244" rx="22" fill="{bg}" stroke="{edge}" stroke-width="2"/>
+<path d="M22 81H558" stroke="{edge}" stroke-width="2" stroke-dasharray="4 6"/>
+<path d="M495 0h52v17h-52z" fill="{accent}" opacity=".45" transform="rotate(5 521 8)"/>
+<circle cx="30" cy="35" r="6" fill="{accent}"/>
+<style>text{{font-family:Arial,sans-serif;fill:{fg}}}.muted{{fill:{muted}}}.value{{fill:{accent};font-weight:700}}</style>
+<text x="47" y="43" font-size="22" font-weight="700">{escape(title)}</text>
+<text x="28" y="65" class="muted" font-size="12">{escape(subtitle)}</text>{body}</svg>'''
 
 
 def render(data):
@@ -79,7 +78,7 @@ def render(data):
         for x, label, key in [(104,'Current streak','current'),(290,'Longest streak','longest'),(476,'Active days','active_days')]:
             body += f'<text x="{x}" y="142" text-anchor="middle" class="value" font-size="38">{data[key]:,}</text><text x="{x}" y="174" text-anchor="middle" class="muted" font-size="14">{label}</text>'
         body += '<text x="290" y="219" text-anchor="middle" class="muted" font-size="11">Days · past-year calendar · UTC</text>'
-        (OUT / f'streak-{theme}.svg').write_text(shell(theme, 'Contribution Streak', 'Every little light counts.', body), encoding='utf-8')
+        (OUT / f'streak-{theme}.svg').write_text(shell(theme, 'Contribution Streak', 'One little step at a time.', body), encoding='utf-8')
     (OUT / 'data.json').write_text(json.dumps(data, indent=2) + '\n', encoding='utf-8')
 
 

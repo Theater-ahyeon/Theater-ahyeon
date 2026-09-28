@@ -3,12 +3,12 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img src="assets/hero-light.svg" alt="Theater-ahyeon — code, notes, and side projects. A Phoebe-themed cathedral." width="100%">
+  <img src="assets/hero-light.svg" alt="Theater-ahyeon — code, notes, and side projects. A Phoebe sticker notebook." width="100%">
 </picture>
 
 </div>
 
-### ✦ about
+### ✎ about
 
 - 🎓 Learning at **BUPT** · exploring computer science
 - 🎧 Music, side projects, and a little curiosity
@@ -20,7 +20,7 @@
   <img src="assets/divider-light.svg" alt="" width="100%">
 </picture>
 
-### ✦ stats
+### ▧ little progress
 
 <div align="center">
 
@@ -38,7 +38,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Theater-ahyeon/Theater-ahyeon/output/snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Theater-ahyeon/Theater-ahyeon/output/snake-light.svg">
-  <img src="https://raw.githubusercontent.com/Theater-ahyeon/Theater-ahyeon/output/snake-light.svg" alt="An animated golden snake traverses my GitHub contribution calendar" width="100%">
+  <img src="https://raw.githubusercontent.com/Theater-ahyeon/Theater-ahyeon/output/snake-light.svg" alt="An animated lavender snake traverses my GitHub contribution calendar" width="100%">
 </picture>
 
 </div>

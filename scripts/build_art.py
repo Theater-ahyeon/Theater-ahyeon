@@ -1,50 +1,44 @@
-"""Build self-contained README SVGs from generated illustrations."""
+"""Build the Phoebe sticker-notebook profile; no external SVG resources."""
 import base64
 from pathlib import Path
-
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / 'assets'
 
-
-def image(name):
-    return 'data:image/jpeg;base64,' + base64.b64encode((ASSETS / 'art' / name).read_bytes()).decode()
-
-
-def star(x, y, size=8, color='#D9C089'):
-    return f'<path d="M{x},{y-size} Q{x+1},{y-1} {x+size},{y} Q{x+1},{y+1} {x},{y+size} Q{x-1},{y+1} {x-size},{y} Q{x-1},{y-1} {x},{y-size}Z" fill="{color}"/>'
-
-
-def frame(w, h, color):
-    return f'<g fill="none" stroke="{color}" stroke-width="1" opacity=".8"><rect x="12" y="12" width="{w-24}" height="{h-24}" rx="4"/><path d="M30,36V24H52 M{w-52},24H{w-30}V36 M30,{h-36}V{h-24}H52 M{w-52},{h-24}H{w-30}V{h-36}"/></g>'
-
-
 def build():
-    for theme in ('dark', 'light'):
+    sticker = 'data:image/png;base64,' + base64.b64encode((ASSETS/'art/phoebe-sticker.png').read_bytes()).decode()
+    for theme in ('dark','light'):
         dark = theme == 'dark'
-        gold = '#D9C089' if dark else '#9B7840'
-        ink = '#F7F5EE' if dark else '#172D50'
-        base = '#101A3A' if dark else '#F7F5EE'
-        hero = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-label="Theater-ahyeon — code, notes, and side projects. Phoebe in a luminous cathedral.">
-<title>Theater-ahyeon — code, notes, and side projects.</title>
-<defs><linearGradient id="shade"><stop stop-color="{base}" stop-opacity=".8"/><stop offset=".43" stop-color="{base}" stop-opacity=".6"/><stop offset=".65" stop-color="{base}" stop-opacity="0"/></linearGradient></defs>
-<image width="1200" height="480" href="{image(f'hero-{theme}.jpg')}" preserveAspectRatio="xMidYMid slice"/>
-<path fill="url(#shade)" d="M0 0H1200V480H0Z"/>{frame(1200,480,gold)}
-<g font-family="Georgia, 'Times New Roman', serif">
-<text x="62" y="160" fill="{gold}" font-size="13" letter-spacing="5">A LITTLE LIGHT, A LITTLE CODE</text>
-<text x="58" y="241" fill="{ink}" font-size="60" letter-spacing="-1.8">Theater-ahyeon</text>
-<text x="62" y="281" fill="{ink}" font-size="20" letter-spacing="2">code, notes, and side projects.</text>
-<path d="M62 319H174 M202 319H314" stroke="{gold}" opacity=".8"/>{star(188,319,8,gold)}
-<text x="62" y="369" fill="{gold}" font-size="12" letter-spacing="4">PHOEBE · WUTHERING WAVES</text></g></svg>'''
-        (ASSETS / f'hero-{theme}.svg').write_text(hero, encoding='utf-8')
-        divider = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="44" viewBox="0 0 1200 44"><defs><linearGradient id="line" gradientUnits="userSpaceOnUse" x1="0" y1="22" x2="1200" y2="22"><stop stop-color="{gold}" stop-opacity="0"/><stop offset=".5" stop-color="{gold}"/><stop offset="1" stop-color="{gold}" stop-opacity="0"/></linearGradient></defs><path d="M0 22H572 M628 22H1200" stroke="url(#line)"/><circle cx="600" cy="22" r="14" fill="none" stroke="{gold}" opacity=".65"/>{star(600,22,20,gold)}{star(568,22,4,gold)}{star(632,22,4,gold)}</svg>'''
-        (ASSETS / f'divider-{theme}.svg').write_text(divider, encoding='utf-8')
-        footer = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-label="Thanks for stopping by. A cathedral opens onto a sunlit sea."><title>thanks for stopping by.</title>
-<defs><linearGradient id="veil" x2="0" y2="1"><stop stop-color="{base}" stop-opacity=".1"/><stop offset=".55" stop-color="{base}" stop-opacity=".15"/><stop offset="1" stop-color="{base}" stop-opacity=".95"/></linearGradient></defs>
-<image width="1200" height="250" href="{image('footer.jpg')}" preserveAspectRatio="xMidYMid slice"/>
-<path d="M0 0H1200V250H0Z" fill="url(#veil)"/>{frame(1200,250,gold)}
-<text x="600" y="212" text-anchor="middle" font-family="Georgia,serif" font-size="21" letter-spacing="3" fill="{ink}">thanks for stopping by.</text></svg>'''
-        (ASSETS / f'footer-{theme}.svg').write_text(footer, encoding='utf-8')
-
+        paper,ink,line,blue,purple = ('#242636','#F7F0DC','#44485E','#A6C8F5','#C6B4EF') if dark else ('#FFF9EC','#353347','#E3DFD4','#6797C9','#9173BD')
+        note = '#35394F' if dark else '#E4EDF9'
+        def svg(h,body,title):
+            return f'<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="{h}" viewBox="0 0 1200 {h}" role="img" aria-label="{title}"><title>{title}</title><defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="{line}" stroke-width=".7"/></pattern></defs>{body}</svg>'
+        hero = f'''<rect x="2" y="2" width="1196" height="456" rx="28" fill="{paper}" stroke="{line}" stroke-width="3"/>
+<rect x="3" y="3" width="1194" height="454" rx="27" fill="url(#grid)"/>
+<path d="M48 0V460" stroke="{purple}" opacity=".3" stroke-width="2"/>
+<g fill="{ink}" font-family="Arial, sans-serif">
+<g transform="rotate(-3 185 92)"><rect x="78" y=" sixty" width="235" height="48" rx="8" fill="{note}"/><text x="96" y="92" font-size="16" font-weight="700" letter-spacing="2">HELLO, I'M THEATER</text></g>
+<text x="76" y="208" font-size="68" font-weight="800" letter-spacing="-3">Theater-ahyeon</text>
+<path d="M80 228 Q265 239 489 226" stroke="{purple}" stroke-width="7" stroke-linecap="round" fill="none" opacity=".7"/>
+<text x="80" y="276" font-size="24" fill="{blue}">code, notes, and side projects.</text>
+<rect x="80" y="320" width="92" height="35" rx="17" fill="{note}"/><text x="101" y="343" font-size="15">BUPT</text>
+<rect x="184" y="320" width="118" height="35" rx="17" fill="{note}"/><text x="202" y="343" font-size="15">curiosity</text>
+<rect x="314" y="320" width="110" height="35" rx="17" fill="{note}"/><text x="337" y="343" font-size="15">music ♫</text>
+<text x="80" y="412" font-size="13" letter-spacing="2" opacity=".65">LITTLE NOTES. LITTLE STEPS.</text></g>
+<ellipse cx="929" cy="405" rx="176" ry="19" fill="{purple}" opacity=".15"/>
+<image x="715" y="26" width="435" height="410" href="{sticker}"/>
+<path d="M655 115l8 13 15 2-11 11 2 15-14-7-14 7 2-15-11-11 15-2z" fill="{purple}" opacity=".6"/>
+<path d="M1118 85q26-20 31 8q-5 18-29 29q-23-26-2-37" fill="{blue}" opacity=".65"/>'''.replace('y=" sixty"','y="60"')
+        (ASSETS/f'hero-{theme}.svg').write_text(svg(460,hero,'Theater-ahyeon — a little notebook with Phoebe'),encoding='utf-8')
+        divider=f'<path d="M32 25H545 M655 25H1168" fill="none" stroke="{line}" stroke-width="2" stroke-dasharray="5 9" stroke-linecap="round"/><g transform="rotate(-5 600 25)"><rect x="563" y="11" width="74" height="28" rx="5" fill="{note}"/><path d="M585 25h30 M600 18v14" stroke="{purple}" stroke-width="3" stroke-linecap="round"/></g>'
+        (ASSETS/f'divider-{theme}.svg').write_text(svg(50,divider,'Notebook divider'),encoding='utf-8')
+        footer=f'''<rect x="2" y="16" width="1196" height="164" rx="22" fill="{paper}" stroke="{line}" stroke-width="2"/>
+<path d="M30 144H1170" stroke="{line}" stroke-dasharray="5 8" stroke-width="2"/>
+<rect x="86" y="6" width="120" height="30" rx="3" fill="{blue}" opacity=".5" transform="rotate(-6 146 21)"/>
+<rect x="994" y="6" width="120" height="30" rx="3" fill="{purple}" opacity=".5" transform="rotate(5 1054 21)"/>
+<g font-family="Arial,sans-serif" text-anchor="middle" fill="{ink}"><text x="600" y="89" font-size="30" font-weight="700">thanks for stopping by!</text><text x="600" y="122" font-size="17" fill="{blue}">see you on the next page.</text></g>
+<path d="M126 83q-25-23-38 0q-4 15 37 38q40-28 31-42q-10-17-30 4" fill="{purple}" opacity=".65"/>
+<path d="M1050 70l8 19 21 2-16 14 5 21-18-11-19 11 5-21-16-14 21-2z" fill="{blue}" opacity=".7"/>'''
+        (ASSETS/f'footer-{theme}.svg').write_text(svg(192,footer,'Thanks for stopping by! See you on the next page.'),encoding='utf-8')
 
 if __name__ == '__main__':
     build()
