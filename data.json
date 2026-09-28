@@ -1,2054 +1,369 @@
 {
   "login": "Theater-ahyeon",
-  "generated_at": "2026-09-28T18:31:25.569118+00:00",
+  "generated_at": "2026-09-28T19:39:05.610200+00:00",
   "repositories": 22,
   "stars": 6,
   "contributions": 420,
-  "current": 3,
-  "longest": 8,
-  "active_days": 52,
-  "weeks": [
+  "merged_prs": [
     {
-      "contributionDays": [
-        {
-          "date": "2025-09-28",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-09-29",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-09-30",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-01",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-02",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-03",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-04",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 11129,
+      "title": "docs(developers): document CI and release repository variables",
+      "url": "https://github.com/QwenLM/qwen-code/pull/11129",
+      "mergedAt": "2026-09-28T10:36:46Z",
+      "repository": {
+        "nameWithOwner": "QwenLM/qwen-code",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "QwenLM"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2025-10-05",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-06",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-07",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-08",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-09",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-10",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-11",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 5897,
+      "title": "fix(subagents): terminalize batches after exhausted leases expire",
+      "url": "https://github.com/bytedance/deer-flow/pull/5897",
+      "mergedAt": "2026-09-28T07:29:18Z",
+      "repository": {
+        "nameWithOwner": "bytedance/deer-flow",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "bytedance"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2025-10-12",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-13",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-14",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-15",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-16",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-17",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-18",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 5898,
+      "title": "fix(agents): scope delegation ledger IDs to parent runs",
+      "url": "https://github.com/bytedance/deer-flow/pull/5898",
+      "mergedAt": "2026-09-27T01:50:31Z",
+      "repository": {
+        "nameWithOwner": "bytedance/deer-flow",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "bytedance"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2025-10-19",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-20",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-21",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-22",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-23",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-24",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-25",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 918,
+      "title": "fix(update): checkpoint SQLite WAL before desktop process restart",
+      "url": "https://github.com/TencentCloud/Octop/pull/918",
+      "mergedAt": "2026-09-23T07:40:44Z",
+      "repository": {
+        "nameWithOwner": "TencentCloud/Octop",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "TencentCloud"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2025-10-26",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-27",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-28",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-29",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-30",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-31",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-01",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 895,
+      "title": "docs(acp): add language identifier to bare code block",
+      "url": "https://github.com/TencentCloud/Octop/pull/895",
+      "mergedAt": "2026-09-21T06:26:11Z",
+      "repository": {
+        "nameWithOwner": "TencentCloud/Octop",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "TencentCloud"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2025-11-02",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-03",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-04",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-05",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-06",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-07",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-08",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 896,
+      "title": "docs(configuration): add password and url to database schema example",
+      "url": "https://github.com/TencentCloud/Octop/pull/896",
+      "mergedAt": "2026-09-21T06:26:07Z",
+      "repository": {
+        "nameWithOwner": "TencentCloud/Octop",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "TencentCloud"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2025-11-09",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-10",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-11",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-12",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-13",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-14",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-15",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 872,
+      "title": "docs(adr): remove broken related links in ADR 002",
+      "url": "https://github.com/TencentCloud/Octop/pull/872",
+      "mergedAt": "2026-09-21T02:54:27Z",
+      "repository": {
+        "nameWithOwner": "TencentCloud/Octop",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "TencentCloud"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2025-11-16",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-17",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-18",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-19",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-20",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-21",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-22",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 873,
+      "title": "docs(readme): fix broken TOC anchor links in README.md and README_CN.md",
+      "url": "https://github.com/TencentCloud/Octop/pull/873",
+      "mergedAt": "2026-09-21T02:54:24Z",
+      "repository": {
+        "nameWithOwner": "TencentCloud/Octop",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "TencentCloud"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2025-11-23",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-24",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-25",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-26",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-27",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-28",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-29",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 875,
+      "title": "docs(agents): fix broken CONTRIBUTING.md links in technical-writer subagents",
+      "url": "https://github.com/TencentCloud/Octop/pull/875",
+      "mergedAt": "2026-09-21T02:54:19Z",
+      "repository": {
+        "nameWithOwner": "TencentCloud/Octop",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "TencentCloud"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2025-11-30",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-01",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-02",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-03",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-04",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-05",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-06",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 10160,
+      "title": "[fix] replace dead links in cookbook knowledge sources and docs references",
+      "url": "https://github.com/agno-agi/agno/pull/10160",
+      "mergedAt": "2026-09-20T21:32:49Z",
+      "repository": {
+        "nameWithOwner": "agno-agi/agno",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "agno-agi"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2025-12-07",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-08",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-09",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-10",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-11",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-12",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-13",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 7435,
+      "title": "fix(cli): don't crash the run TUI when streamed output contains a literal [...]",
+      "url": "https://github.com/crewAIInc/crewAI/pull/7435",
+      "mergedAt": "2026-09-14T15:11:34Z",
+      "repository": {
+        "nameWithOwner": "crewAIInc/crewAI",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "crewAIInc"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2025-12-14",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-15",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-16",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-17",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-18",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-19",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-20",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 5409,
+      "title": "docs(zh): add the missing Project Membership section to README_zh",
+      "url": "https://github.com/bytedance/deer-flow/pull/5409",
+      "mergedAt": "2026-09-13T23:23:23Z",
+      "repository": {
+        "nameWithOwner": "bytedance/deer-flow",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "bytedance"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2025-12-21",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-22",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-23",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-24",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-25",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-26",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-27",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 226,
+      "title": "fix(settings): \u8bbe\u7f6e\u6587\u4ef6\u635f\u574f\u65f6\u9694\u79bb\u5e76\u91cd\u5efa\u9ed8\u8ba4\u503c\uff0c\u907f\u514d\u65e0\u6cd5\u542f\u52a8 (#205)",
+      "url": "https://github.com/Darkatse/TauriTavern/pull/226",
+      "mergedAt": "2026-09-11T23:45:11Z",
+      "repository": {
+        "nameWithOwner": "Darkatse/TauriTavern",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "Darkatse"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2025-12-28",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-29",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-30",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-12-31",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-01",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-02",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-03",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 5230,
+      "title": "docs(zh): add the missing Request Trace Correlation section to README_zh",
+      "url": "https://github.com/bytedance/deer-flow/pull/5230",
+      "mergedAt": "2026-09-06T08:22:53Z",
+      "repository": {
+        "nameWithOwner": "bytedance/deer-flow",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "bytedance"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2026-01-04",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-05",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-06",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-07",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-08",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-09",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-10",
-          "contributionCount": 1,
-          "contributionLevel": "FIRST_QUARTILE"
+      "number": 5222,
+      "title": "docs(zh): add the missing LangGraph Studio section to README_zh",
+      "url": "https://github.com/bytedance/deer-flow/pull/5222",
+      "mergedAt": "2026-09-06T08:22:47Z",
+      "repository": {
+        "nameWithOwner": "bytedance/deer-flow",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "bytedance"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2026-01-11",
-          "contributionCount": 8,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-01-12",
-          "contributionCount": 1,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-01-13",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-14",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-15",
-          "contributionCount": 1,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-01-16",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-17",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 5215,
+      "title": "fix(tests): preload sandbox leaf modules before mocking their parent package",
+      "url": "https://github.com/bytedance/deer-flow/pull/5215",
+      "mergedAt": "2026-09-06T02:39:18Z",
+      "repository": {
+        "nameWithOwner": "bytedance/deer-flow",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "bytedance"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2026-01-18",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-19",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-20",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-21",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-22",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-23",
-          "contributionCount": 3,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-01-24",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 5211,
+      "title": "fix(tests): make three backend test modules runnable on Windows hosts",
+      "url": "https://github.com/bytedance/deer-flow/pull/5211",
+      "mergedAt": "2026-09-06T02:33:41Z",
+      "repository": {
+        "nameWithOwner": "bytedance/deer-flow",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "bytedance"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2026-01-25",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-26",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-27",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-28",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-29",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-30",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-01-31",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 5210,
+      "title": "fix(tests): make test_list_by_thread independent of host clock granularity",
+      "url": "https://github.com/bytedance/deer-flow/pull/5210",
+      "mergedAt": "2026-09-06T02:10:08Z",
+      "repository": {
+        "nameWithOwner": "bytedance/deer-flow",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "bytedance"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2026-02-01",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-02",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-03",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-04",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-05",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-06",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-07",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 10851,
+      "title": "docs(web-shell): align follow-up suggestion copy",
+      "url": "https://github.com/QwenLM/qwen-code/pull/10851",
+      "mergedAt": "2026-09-04T05:13:58Z",
+      "repository": {
+        "nameWithOwner": "QwenLM/qwen-code",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "QwenLM"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2026-02-08",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-09",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-10",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-11",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-12",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-13",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-14",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 1349,
+      "title": "feat(skin-center): add phoebe-atelier radiant strings atelier skin",
+      "url": "https://github.com/zhu1090093659/dsh-web/pull/1349",
+      "mergedAt": "2026-09-02T23:40:27Z",
+      "repository": {
+        "nameWithOwner": "zhu1090093659/dsh-web",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "zhu1090093659"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2026-02-15",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-16",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-17",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-18",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-19",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-20",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-21",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 5151,
+      "title": "docs(zh): add missing scheduled-task upgrade notes",
+      "url": "https://github.com/bytedance/deer-flow/pull/5151",
+      "mergedAt": "2026-09-02T23:33:00Z",
+      "repository": {
+        "nameWithOwner": "bytedance/deer-flow",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "bytedance"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2026-02-22",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-23",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-24",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-25",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-26",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-27",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-02-28",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 5150,
+      "title": "docs(zh): add missing Agentic Browser Control section",
+      "url": "https://github.com/bytedance/deer-flow/pull/5150",
+      "mergedAt": "2026-09-02T23:26:32Z",
+      "repository": {
+        "nameWithOwner": "bytedance/deer-flow",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "bytedance"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2026-03-01",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-02",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-03",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-04",
-          "contributionCount": 1,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-03-05",
-          "contributionCount": 1,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-03-06",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-07",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 1324,
+      "title": "feat(dsh-pet): add starry-doll sprite2d pet",
+      "url": "https://github.com/zhu1090093659/dsh-web/pull/1324",
+      "mergedAt": "2026-09-01T10:58:31Z",
+      "repository": {
+        "nameWithOwner": "zhu1090093659/dsh-web",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "zhu1090093659"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2026-03-08",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-09",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-10",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-11",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-12",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-13",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-14",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 1316,
+      "title": "feat(skins): add stellar-diva, starry-nocturne, hologram-sanctum, abyssal-serenade skins",
+      "url": "https://github.com/zhu1090093659/dsh-web/pull/1316",
+      "mergedAt": "2026-09-01T00:30:52Z",
+      "repository": {
+        "nameWithOwner": "zhu1090093659/dsh-web",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "zhu1090093659"
         }
-      ]
+      }
     },
     {
-      "contributionDays": [
-        {
-          "date": "2026-03-15",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-16",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-17",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-18",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-19",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-20",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-21",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
+      "number": 4875,
+      "title": "docs: fix idempotent tool hint wording",
+      "url": "https://github.com/PrefectHQ/fastmcp/pull/4875",
+      "mergedAt": "2026-08-26T22:18:18Z",
+      "repository": {
+        "nameWithOwner": "PrefectHQ/fastmcp",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "PrefectHQ"
         }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-03-22",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-23",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-24",
-          "contributionCount": 4,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-03-25",
-          "contributionCount": 4,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-03-26",
-          "contributionCount": 4,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-03-27",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-28",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-03-29",
-          "contributionCount": 5,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-03-30",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-03-31",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-04-01",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-04-02",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-04-03",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-04-04",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-04-05",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-04-06",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-04-07",
-          "contributionCount": 2,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-04-08",
-          "contributionCount": 1,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-04-09",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-04-10",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-04-11",
-          "contributionCount": 6,
-          "contributionLevel": "FIRST_QUARTILE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-04-12",
-          "contributionCount": 2,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-04-13",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-04-14",
-          "contributionCount": 6,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-04-15",
-          "contributionCount": 21,
-          "contributionLevel": "THIRD_QUARTILE"
-        },
-        {
-          "date": "2026-04-16",
-          "contributionCount": 8,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-04-17",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-04-18",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-04-19",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-04-20",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-04-21",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-04-22",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-04-23",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-04-24",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-04-25",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-04-26",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-04-27",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-04-28",
-          "contributionCount": 1,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-04-29",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-04-30",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-01",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-02",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-05-03",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-04",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-05",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-06",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-07",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-08",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-09",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-05-10",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-11",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-12",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-13",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-14",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-15",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-16",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-05-17",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-18",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-19",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-20",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-21",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-22",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-23",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-05-24",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-25",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-26",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-27",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-28",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-29",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-05-30",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-05-31",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-01",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-02",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-03",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-04",
-          "contributionCount": 29,
-          "contributionLevel": "FOURTH_QUARTILE"
-        },
-        {
-          "date": "2026-06-05",
-          "contributionCount": 8,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-06-06",
-          "contributionCount": 3,
-          "contributionLevel": "FIRST_QUARTILE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-06-07",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-08",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-09",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-10",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-11",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-12",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-13",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-06-14",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-15",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-16",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-17",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-18",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-19",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-20",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-06-21",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-22",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-23",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-24",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-25",
-          "contributionCount": 1,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-06-26",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-27",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-06-28",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-29",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-06-30",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-01",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-02",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-03",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-04",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-07-05",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-06",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-07",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-08",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-09",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-10",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-11",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-07-12",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-13",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-14",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-15",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-16",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-17",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-18",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-07-19",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-20",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-21",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-22",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-23",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-24",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-25",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-07-26",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-27",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-28",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-29",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-30",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-07-31",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-01",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-08-02",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-03",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-04",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-05",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-06",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-07",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-08",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-08-09",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-10",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-11",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-12",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-13",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-14",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-15",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-08-16",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-17",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-18",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-19",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-20",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-21",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-22",
-          "contributionCount": 9,
-          "contributionLevel": "SECOND_QUARTILE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-08-23",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-24",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-25",
-          "contributionCount": 7,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-08-26",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-27",
-          "contributionCount": 1,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-08-28",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-08-29",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-08-30",
-          "contributionCount": 2,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-08-31",
-          "contributionCount": 24,
-          "contributionLevel": "THIRD_QUARTILE"
-        },
-        {
-          "date": "2026-09-01",
-          "contributionCount": 4,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-09-02",
-          "contributionCount": 32,
-          "contributionLevel": "FOURTH_QUARTILE"
-        },
-        {
-          "date": "2026-09-03",
-          "contributionCount": 11,
-          "contributionLevel": "SECOND_QUARTILE"
-        },
-        {
-          "date": "2026-09-04",
-          "contributionCount": 2,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-09-05",
-          "contributionCount": 6,
-          "contributionLevel": "FIRST_QUARTILE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-09-06",
-          "contributionCount": 24,
-          "contributionLevel": "THIRD_QUARTILE"
-        },
-        {
-          "date": "2026-09-07",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-09-08",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-09-09",
-          "contributionCount": 4,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-09-10",
-          "contributionCount": 1,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-09-11",
-          "contributionCount": 10,
-          "contributionLevel": "SECOND_QUARTILE"
-        },
-        {
-          "date": "2026-09-12",
-          "contributionCount": 5,
-          "contributionLevel": "FIRST_QUARTILE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-09-13",
-          "contributionCount": 4,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-09-14",
-          "contributionCount": 17,
-          "contributionLevel": "SECOND_QUARTILE"
-        },
-        {
-          "date": "2026-09-15",
-          "contributionCount": 7,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-09-16",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-09-17",
-          "contributionCount": 5,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-09-18",
-          "contributionCount": 8,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-09-19",
-          "contributionCount": 6,
-          "contributionLevel": "FIRST_QUARTILE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-09-20",
-          "contributionCount": 9,
-          "contributionLevel": "SECOND_QUARTILE"
-        },
-        {
-          "date": "2026-09-21",
-          "contributionCount": 28,
-          "contributionLevel": "FOURTH_QUARTILE"
-        },
-        {
-          "date": "2026-09-22",
-          "contributionCount": 34,
-          "contributionLevel": "FOURTH_QUARTILE"
-        },
-        {
-          "date": "2026-09-23",
-          "contributionCount": 1,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-09-24",
-          "contributionCount": 3,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-09-25",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2026-09-26",
-          "contributionCount": 21,
-          "contributionLevel": "THIRD_QUARTILE"
-        }
-      ]
-    },
-    {
-      "contributionDays": [
-        {
-          "date": "2026-09-27",
-          "contributionCount": 3,
-          "contributionLevel": "FIRST_QUARTILE"
-        },
-        {
-          "date": "2026-09-28",
-          "contributionCount": 11,
-          "contributionLevel": "SECOND_QUARTILE"
-        }
-      ]
+      }
     }
-  ]
+  ],
+  "projects": {
+    "QwenLM/qwen-code": 2,
+    "bytedance/deer-flow": 10,
+    "TencentCloud/Octop": 6,
+    "agno-agi/agno": 1,
+    "crewAIInc/crewAI": 1,
+    "Darkatse/TauriTavern": 1,
+    "zhu1090093659/dsh-web": 3,
+    "PrefectHQ/fastmcp": 1
+  }
 }
