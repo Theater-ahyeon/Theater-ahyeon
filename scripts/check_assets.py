@@ -7,7 +7,8 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def check():
     files = [ROOT/'assets'/f'{kind}-{theme}.svg' for kind in ('hero','divider','footer') for theme in ('dark','light')]
-    files += [ROOT/'dist'/f'{kind}-{theme}.svg' for kind in ('stats','streak','snake') for theme in ('dark','light')]
+    files += [ROOT/'assets/sea-glow'/f'{kind}-{theme}.svg' for kind in ('hero','divider','footer') for theme in ('dark','light')]
+    files += [ROOT/'dist'/f'{kind}-{theme}.svg' for kind in ('stats','collaboration','projects') for theme in ('dark','light','sea-glow-dark','sea-glow-light')]
     for file in files:
         assert file.exists() and file.stat().st_size > 100, f'Missing/empty: {file}'
         root = ET.parse(file).getroot()
