@@ -10,6 +10,7 @@
 
 ### ✎ about
 
+- 💼 AI full-stack development intern @ **360**
 - 🎓 Learning at **BUPT** · exploring computer science
 - 🎧 Music, side projects, and a little curiosity
 - 📫 [theater1347507191@163.com](mailto:theater1347507191@163.com)
