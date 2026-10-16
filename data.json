@@ -1,10 +1,24 @@
 {
   "login": "Theater-ahyeon",
-  "generated_at": "2026-10-15T05:57:30.121318+00:00",
+  "generated_at": "2026-10-16T05:56:20.273025+00:00",
   "repositories": 27,
   "stars": 13,
-  "contributions": 509,
+  "contributions": 512,
   "merged_prs": [
+    {
+      "number": 6952,
+      "title": "fix(e2b): grep literal patterns verbatim instead of re-escaped",
+      "url": "https://github.com/bytedance/deer-flow/pull/6952",
+      "mergedAt": "2026-10-16T00:31:56Z",
+      "repository": {
+        "nameWithOwner": "bytedance/deer-flow",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "bytedance"
+        }
+      }
+    },
     {
       "number": 55,
       "title": "feat(skin): add Midnight Contract v0.1.3",
@@ -371,9 +385,9 @@
     }
   ],
   "projects": {
+    "bytedance/deer-flow": 11,
     "zhu1090093659/dsh-skins": 1,
     "QwenLM/qwen-code": 2,
-    "bytedance/deer-flow": 10,
     "TencentCloud/Octop": 6,
     "agno-agi/agno": 1,
     "crewAIInc/crewAI": 1,
