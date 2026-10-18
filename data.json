@@ -1,10 +1,66 @@
 {
   "login": "Theater-ahyeon",
-  "generated_at": "2026-10-17T05:40:48.535870+00:00",
-  "repositories": 27,
+  "generated_at": "2026-10-18T06:02:58.329840+00:00",
+  "repositories": 29,
   "stars": 13,
-  "contributions": 512,
+  "contributions": 550,
   "merged_prs": [
+    {
+      "number": 155,
+      "title": "feat(research): \u57fa\u4e8e\u7edf\u4e00\u8bc1\u636e bundle \u805a\u5408\u7814\u62a5 Claim \u6838\u9a8c",
+      "url": "https://github.com/helsome/folio/pull/155",
+      "mergedAt": "2026-10-18T05:33:28Z",
+      "repository": {
+        "nameWithOwner": "helsome/folio",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "helsome"
+        }
+      }
+    },
+    {
+      "number": 105,
+      "title": "feat(research): \u6301\u4e45\u5316\u5e76\u91cd\u8f7d Deep Research \u62a5\u544a\u7684\u7edf\u4e00\u8bc1\u636e bundle",
+      "url": "https://github.com/helsome/folio/pull/105",
+      "mergedAt": "2026-10-18T05:08:17Z",
+      "repository": {
+        "nameWithOwner": "helsome/folio",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "helsome"
+        }
+      }
+    },
+    {
+      "number": 104,
+      "title": "feat(evidence): \u7edf\u4e00 Source \u2192 Evidence \u2194 Claim \u8bc1\u636e\u5951\u7ea6",
+      "url": "https://github.com/helsome/folio/pull/104",
+      "mergedAt": "2026-10-18T05:08:07Z",
+      "repository": {
+        "nameWithOwner": "helsome/folio",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "helsome"
+        }
+      }
+    },
+    {
+      "number": 154,
+      "title": "feat(automation): \u4e3a\u6bcf\u65e5\u7b80\u62a5\u9879\u6dfb\u52a0\u6765\u6e90\u7ebf\u7d22\u4e0e\u4e0a\u4e0b\u6587\u5173\u8054\u6807\u8bb0",
+      "url": "https://github.com/helsome/folio/pull/154",
+      "mergedAt": "2026-10-18T04:52:31Z",
+      "repository": {
+        "nameWithOwner": "helsome/folio",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "helsome"
+        }
+      }
+    },
     {
       "number": 6952,
       "title": "fix(e2b): grep literal patterns verbatim instead of re-escaped",
@@ -385,6 +441,7 @@
     }
   ],
   "projects": {
+    "helsome/folio": 4,
     "bytedance/deer-flow": 11,
     "zhu1090093659/dsh-skins": 1,
     "QwenLM/qwen-code": 2,
