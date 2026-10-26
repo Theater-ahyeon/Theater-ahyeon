@@ -1,10 +1,24 @@
 {
   "login": "Theater-ahyeon",
-  "generated_at": "2026-10-25T06:15:42.544860+00:00",
+  "generated_at": "2026-10-26T06:24:13.485452+00:00",
   "repositories": 30,
   "stars": 18,
-  "contributions": 566,
+  "contributions": 567,
   "merged_prs": [
+    {
+      "number": 7132,
+      "title": "fix(skills): support basename data-analysis exports",
+      "url": "https://github.com/bytedance/deer-flow/pull/7132",
+      "mergedAt": "2026-10-25T07:48:58Z",
+      "repository": {
+        "nameWithOwner": "bytedance/deer-flow",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "bytedance"
+        }
+      }
+    },
     {
       "number": 155,
       "title": "feat(research): \u57fa\u4e8e\u7edf\u4e00\u8bc1\u636e bundle \u805a\u5408\u7814\u62a5 Claim \u6838\u9a8c",
@@ -441,8 +455,8 @@
     }
   ],
   "projects": {
+    "bytedance/deer-flow": 12,
     "helsome/folio": 4,
-    "bytedance/deer-flow": 11,
     "zhu1090093659/dsh-skins": 1,
     "QwenLM/qwen-code": 2,
     "TencentCloud/Octop": 6,
