@@ -1,10 +1,24 @@
 {
   "login": "Theater-ahyeon",
-  "generated_at": "2026-11-05T07:57:44.274984+00:00",
+  "generated_at": "2026-11-06T07:59:22.016907+00:00",
   "repositories": 31,
   "stars": 22,
-  "contributions": 572,
+  "contributions": 573,
   "merged_prs": [
+    {
+      "number": 1459,
+      "title": "fix(rag): detect top-level JSON arrays in auto format detection",
+      "url": "https://github.com/VoltAgent/voltagent/pull/1459",
+      "mergedAt": "2026-11-06T05:34:21Z",
+      "repository": {
+        "nameWithOwner": "VoltAgent/voltagent",
+        "isPrivate": false,
+        "isFork": false,
+        "owner": {
+          "login": "VoltAgent"
+        }
+      }
+    },
     {
       "number": 7132,
       "title": "fix(skills): support basename data-analysis exports",
@@ -455,6 +469,7 @@
     }
   ],
   "projects": {
+    "VoltAgent/voltagent": 1,
     "bytedance/deer-flow": 12,
     "helsome/folio": 4,
     "zhu1090093659/dsh-skins": 1,
